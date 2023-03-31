@@ -31,7 +31,7 @@ public class ContaBancaria {
 	public void depositar(double valorDeposito) {
 		if (valorDeposito > 0) {
 			valorDeposito -= valorDeposito * PORCENTAGEM_POR_DEPOSITO;
-			saldo += + valorDeposito;
+			saldo += valorDeposito;
 		}
 	}
 	
